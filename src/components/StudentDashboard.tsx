@@ -240,7 +240,7 @@ const StudentDashboard: React.FC = () => {
                     />
                   </div>
                   <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-                    {uploadForm.course_id ? `Selected: ${courses.find(c => c.id == uploadForm.course_id)?.code}` : uploadForm.courseText ? `New: ${uploadForm.courseText}` : 'Choose one option'}
+                    {uploadForm.course_id ? `Selected: ${courses.find(c => c.id === parseInt(uploadForm.course_id))?.code}` : uploadForm.courseText ? `New: ${uploadForm.courseText}` : 'Choose one option'}
                   </p>
                 </div>
 

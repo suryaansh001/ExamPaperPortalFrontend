@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useState, useEffect } from 'react';
 import OTPVerification from './components/OTPVerification';
 import AdminLogin from './components/AdminLogin';
 import StudentDashboard from './components/StudentDashboard';
